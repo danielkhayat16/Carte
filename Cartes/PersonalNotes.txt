@@ -1,0 +1,8 @@
+I will write here some personal notes of the main difficulties at the begining of my learning of React and GitHub.
+
+- I was not able to commit and push to the repository on GitHub because I was not logged in to the right account on my computer.
+    I solved the issue by logging into the right account : Windows Control Panel -> Credentials Manager -> GitHub
+
+- I used the command npm create vite@latest to initialize the react project
+
+- I run the command npm run dev but it was not working because I did not runned the command npm install in the directory
