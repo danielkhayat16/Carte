@@ -1,0 +1,8 @@
+.Carte {
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-bottom:  10%;
+    padding-bottom: 5%;
+    padding-inline: 2%;
+    width: max-content;
+}
