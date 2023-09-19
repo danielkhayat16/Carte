@@ -1,4 +1,6 @@
 import "./Carte.css"
+import {googleAuth} from "../../server/googleUtils"
+console.log(googleAuth())
 function Carte() {
     
     let clientName = "Motahiba"

@@ -6,3 +6,9 @@ I will write here some personal notes of the main difficulties at the begining o
 - I used the command npm create vite@latest to initialize the react project
 
 - I run the command npm run dev but it was not working because I did not runned the command npm install in the directory
+
+- I learned about .gitignore
+
+- I understood that the server and client sides work separatly
+    In dev I need a proxy port to enable interaction between client and server.
+    
