@@ -11,4 +11,11 @@ I will write here some personal notes of the main difficulties at the begining o
 
 - I understood that the server and client sides work separatly
     In dev I need a proxy port to enable interaction between client and server.
-    
+
+- In order to enable to interaction between client and server when using vite, I need to configure the vite.config.js
+file and add a server property to the defineConfig Object:
+        server{
+            proxy:{
+                "THE_MAIN_ROUTE": "http://localhost:PORT",
+            }
+        }
